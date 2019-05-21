@@ -2,6 +2,10 @@
 #ifndef game_part_h
 #define game_part_h
 
+#include "SnakeConfig.hpp"
+
+#include <cstdint>
+
 class GamePart {
  public:
   GamePart(int x = 0, int y = 0, int type = SNAKE_PART)
